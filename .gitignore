@@ -1,0 +1,29 @@
+# Python environments
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated data and indexes
+data/
+
+# Test and type-check caches
+.test-tmp/
+.pytest_cache/
+.mypy_cache/
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+frontend/.env.local
+
+
+# Generated example data
+examples/demo_repository.zip
+/sample-project.zip
